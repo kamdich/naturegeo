@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+/*Обнуление*/
+/*---------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.table {
+  margin-top: 20px;
+  background: lightgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.table-block {
+  display: inline-block; }
+
+.row {
+  border: solid 2px #000;
+  text-align: center;
+  /*padding: 20px 5px;*/
+  width: 280px;
+  height: 70px;
+  background: #999;
+  padding-top: 20px; }
+
+.row-time {
+  padding-top: 22px;
+  border: solid 2px #000;
+  text-align: center;
+  background: #fafafa;
+  height: 70px;
+  width: 280px;
+  background: #999; }
+
+.row:first-child {
+  font-weight: 800; }
+
+.row-time:first-child {
+  font-weight: 800; }
+
+.half {
+  display: wrap; }
+
+.row-half {
+  background: #666;
+  padding-top: 20px;
+  /*border: solid 2px #000;*/
+  text-align: center;
+  width: 280px;
+  height: 70px; }
+
+.grunt {
+  border: solid 2px #000;
+  text-align: center;
+  height: 70px; }
+
+.row1 {
+  height: 35px;
+  background: #999;
+  padding: 5px 0;
+  border-bottom: 3px solid black; }
+
+.row2 {
+  height: 31px;
+  background: #999; }
+
+.three {
+  border: solid 2px #000;
+  text-align: center;
+  width: 280px;
+  height: 70px;
+  background: #999; }
+
+.adin {
+  height: 35px;
+  background: #999;
+  padding: 5px 0;
+  border-bottom: 3px solid black; }
+
+.dwa {
+  padding-top: 3px;
+  height: 31px;
+  background: #999; }
