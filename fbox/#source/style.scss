@@ -1,0 +1,51 @@
+ @import 'null.scss';
+
+body{
+  background: #fafafa;
+}
+.wrapper{
+  height: 100%;
+  min-height: 100%;
+  padding: 50px;
+  background: #555;
+}
+.block{
+
+}
+.block-row{
+  border: #e0d051 solid 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap; 
+
+}
+.block__column{
+  border: #ed4e4e 5px solid;
+}
+.block__item{ 
+  background: #4eed93;
+  
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+
+}
+.block-monday{
+  padding: 8px 10px;
+  background: #777;
+}
+
+.block__row{
+  border: 3px solid black;
+  border-bottom: none;
+  padding-top: 10px;
+  padding: 5px 0px;
+  min-width: 220px;
+  text-align: center;
+}
+.block__row:last-child{
+  border-bottom: black solid 3px;
+  padding-bottom: 10px;
+}
